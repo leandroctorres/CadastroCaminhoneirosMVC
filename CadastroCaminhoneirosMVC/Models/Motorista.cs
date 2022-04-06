@@ -16,7 +16,6 @@ namespace CadastroCaminhoneirosMVC.Models
         [Required(ErrorMessage = "O campo Último Nome é obrigatório")]
         public string UltimoNome { get; set; }
 
-        public List<CaminhaoMotorista> CaminhaoMotorista { get; set; }
-        public List<EnderecoMotorista> EnderecoMotorista { get; set; }
+        
     }
 }

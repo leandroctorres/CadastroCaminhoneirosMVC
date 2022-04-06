@@ -20,3 +20,9 @@ Solução desenvolvida em . Net Core, no padrão MVC.
 
 <img src=".\img\img03-CaminhaoMotoristas.png"  />
 
+
+
+### CadastroCaminhoneiros API - Swagger
+
+<img src=".\img\img04-Swagger-CadCaminhoneirosAPI.png"  />
+
