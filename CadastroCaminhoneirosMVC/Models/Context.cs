@@ -8,7 +8,7 @@ namespace CadastroCaminhoneirosMVC.Models
 {
     public class Context : DbContext
     {
-        public DbSet<Motorista> Motorista { get; set; }
+        public virtual DbSet<Motorista> Motorista { get; set; }
         public DbSet<EnderecoMotorista> EnderecoMotorista { get; set; }
         public DbSet<CaminhaoMotorista> CaminhaoMotorista { get; set; }
 
