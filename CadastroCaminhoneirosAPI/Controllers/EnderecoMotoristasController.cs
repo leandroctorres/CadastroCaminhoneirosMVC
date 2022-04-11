@@ -52,7 +52,8 @@ namespace CadastroCaminhoneirosAPI.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(enderecoMotorista).State = EntityState.Modified;
+            //_context.Entry(enderecoMotorista).State = EntityState.Modified;
+            _context.SetModified(enderecoMotorista);
 
             try
             {

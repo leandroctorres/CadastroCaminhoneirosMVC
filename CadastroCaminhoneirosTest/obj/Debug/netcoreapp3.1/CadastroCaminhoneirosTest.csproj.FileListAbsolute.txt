@@ -230,3 +230,4 @@ C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\o
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\obj\Debug\netcoreapp3.1\CadastroCaminhoneirosTest.dll
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\obj\Debug\netcoreapp3.1\CadastroCaminhoneirosTest.pdb
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\obj\Debug\netcoreapp3.1\CadastroCaminhoneirosTest.genruntimeconfig.cache
+C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\bin\Debug\netcoreapp3.1\CadastroCaminhoneirosAPI.StaticWebAssets.xml

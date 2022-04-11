@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.0867" branch-rate="0.0067" version="1.9" timestamp="1649447816" lines-covered="67" lines-valid="772" branches-covered="3" branches-valid="445">
+<coverage line-rate="0.221" branch-rate="0.015700000000000002" version="1.9" timestamp="1649645618" lines-covered="183" lines-valid="828" branches-covered="7" branches-valid="445">
   <sources>
     <source>C:\Users\leand\</source>
   </sources>
   <packages>
-    <package name="CadastroCaminhoneirosAPI" line-rate="0.1638" branch-rate="0.1153" complexity="43">
+    <package name="CadastroCaminhoneirosAPI" line-rate="0.435" branch-rate="0.2692" complexity="43">
       <classes>
         <class name="CadastroCaminhoneirosAPI.Program" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Program.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
@@ -116,32 +116,32 @@
             <line number="23" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="0.5714" branch-rate="1" complexity="2">
           <methods>
             <method name="CaminhaoMotoristaExists" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="105" hits="0" branch="False" />
                 <line number="106" hits="0" branch="False" />
                 <line number="107" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(CadastroCaminhoneirosMVC.Models.Context)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(CadastroCaminhoneirosMVC.Models.Context)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
-                <line number="21" hits="0" branch="False" />
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="105" hits="0" branch="False" />
             <line number="106" hits="0" branch="False" />
             <line number="107" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
           </lines>
         </class>
         <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController/&lt;GetCaminhaoMotorista&gt;d__2" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -192,148 +192,148 @@
             <line number="42" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController/&lt;PutCaminhaoMotorista&gt;d__4" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController/&lt;PutCaminhaoMotorista&gt;d__4" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="0.4705" branch-rate="0.25" complexity="4">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
+            <method name="MoveNext" signature="()" line-rate="0.4705" branch-rate="0.25" complexity="4">
               <lines>
-                <line number="49" hits="0" branch="False" />
-                <line number="50" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="39" type="jump" coverage="0%" />
+                    <condition number="39" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="51" hits="0" branch="False" />
                 <line number="52" hits="0" branch="False" />
-                <line number="55" hits="0" branch="False" />
-                <line number="58" hits="0" branch="False" />
-                <line number="59" hits="0" branch="False" />
-                <line number="60" hits="0" branch="False" />
-                <line number="61" hits="0" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
                 <line number="62" hits="0" branch="False" />
-                <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="243" type="jump" coverage="0%" />
+                    <condition number="237" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="64" hits="0" branch="False" />
                 <line number="65" hits="0" branch="False" />
-                <line number="68" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
                 <line number="69" hits="0" branch="False" />
-                <line number="73" hits="0" branch="False" />
-                <line number="74" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="49" hits="0" branch="False" />
-            <line number="50" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="39" type="jump" coverage="0%" />
+                <condition number="39" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="51" hits="0" branch="False" />
             <line number="52" hits="0" branch="False" />
-            <line number="55" hits="0" branch="False" />
-            <line number="58" hits="0" branch="False" />
-            <line number="59" hits="0" branch="False" />
-            <line number="60" hits="0" branch="False" />
-            <line number="61" hits="0" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
             <line number="62" hits="0" branch="False" />
-            <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="243" type="jump" coverage="0%" />
+                <condition number="237" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="64" hits="0" branch="False" />
             <line number="65" hits="0" branch="False" />
-            <line number="68" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
             <line number="69" hits="0" branch="False" />
-            <line number="73" hits="0" branch="False" />
-            <line number="74" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController/&lt;PostCaminhaoMotorista&gt;d__5" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController/&lt;PostCaminhaoMotorista&gt;d__5" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="81" hits="0" branch="False" />
-                <line number="82" hits="0" branch="False" />
-                <line number="83" hits="0" branch="False" />
-                <line number="85" hits="0" branch="False" />
-                <line number="86" hits="0" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="81" hits="0" branch="False" />
-            <line number="82" hits="0" branch="False" />
-            <line number="83" hits="0" branch="False" />
-            <line number="85" hits="0" branch="False" />
-            <line number="86" hits="0" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController/&lt;DeleteCaminhaoMotorista&gt;d__6" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="CadastroCaminhoneirosAPI.Controllers.CaminhaoMotoristasController/&lt;DeleteCaminhaoMotorista&gt;d__6" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\CaminhaoMotoristasController.cs" line-rate="0.7777" branch-rate="0.5" complexity="2">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+            <method name="MoveNext" signature="()" line-rate="0.7777" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="91" hits="0" branch="False" />
-                <line number="92" hits="0" branch="False" />
-                <line number="93" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="198" type="jump" coverage="0%" />
+                    <condition number="198" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="94" hits="0" branch="False" />
                 <line number="95" hits="0" branch="False" />
-                <line number="98" hits="0" branch="False" />
-                <line number="99" hits="0" branch="False" />
-                <line number="101" hits="0" branch="False" />
-                <line number="102" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="91" hits="0" branch="False" />
-            <line number="92" hits="0" branch="False" />
-            <line number="93" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="198" type="jump" coverage="0%" />
+                <condition number="198" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="94" hits="0" branch="False" />
             <line number="95" hits="0" branch="False" />
-            <line number="98" hits="0" branch="False" />
-            <line number="99" hits="0" branch="False" />
-            <line number="101" hits="0" branch="False" />
-            <line number="102" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="0.5714" branch-rate="1" complexity="2">
           <methods>
             <method name="EnderecoMotoristaExists" signature="(System.Int32)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="105" hits="0" branch="False" />
                 <line number="106" hits="0" branch="False" />
                 <line number="107" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(CadastroCaminhoneirosMVC.Models.Context)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(CadastroCaminhoneirosMVC.Models.Context)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
-                <line number="21" hits="0" branch="False" />
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="105" hits="0" branch="False" />
             <line number="106" hits="0" branch="False" />
             <line number="107" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
           </lines>
         </class>
         <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController/&lt;GetEnderecoMotorista&gt;d__2" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -384,120 +384,120 @@
             <line number="42" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController/&lt;PutEnderecoMotorista&gt;d__4" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController/&lt;PutEnderecoMotorista&gt;d__4" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="0.4705" branch-rate="0.25" complexity="4">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
+            <method name="MoveNext" signature="()" line-rate="0.4705" branch-rate="0.25" complexity="4">
               <lines>
-                <line number="49" hits="0" branch="False" />
-                <line number="50" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="39" type="jump" coverage="0%" />
+                    <condition number="39" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="51" hits="0" branch="False" />
                 <line number="52" hits="0" branch="False" />
-                <line number="55" hits="0" branch="False" />
-                <line number="58" hits="0" branch="False" />
-                <line number="59" hits="0" branch="False" />
-                <line number="60" hits="0" branch="False" />
-                <line number="61" hits="0" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
                 <line number="62" hits="0" branch="False" />
-                <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="243" type="jump" coverage="0%" />
+                    <condition number="237" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="64" hits="0" branch="False" />
                 <line number="65" hits="0" branch="False" />
-                <line number="68" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
                 <line number="69" hits="0" branch="False" />
-                <line number="73" hits="0" branch="False" />
-                <line number="74" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="49" hits="0" branch="False" />
-            <line number="50" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="39" type="jump" coverage="0%" />
+                <condition number="39" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="51" hits="0" branch="False" />
             <line number="52" hits="0" branch="False" />
-            <line number="55" hits="0" branch="False" />
-            <line number="58" hits="0" branch="False" />
-            <line number="59" hits="0" branch="False" />
-            <line number="60" hits="0" branch="False" />
-            <line number="61" hits="0" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
             <line number="62" hits="0" branch="False" />
-            <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="243" type="jump" coverage="0%" />
+                <condition number="237" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="64" hits="0" branch="False" />
             <line number="65" hits="0" branch="False" />
-            <line number="68" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
             <line number="69" hits="0" branch="False" />
-            <line number="73" hits="0" branch="False" />
-            <line number="74" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController/&lt;PostEnderecoMotorista&gt;d__5" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController/&lt;PostEnderecoMotorista&gt;d__5" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="81" hits="0" branch="False" />
-                <line number="82" hits="0" branch="False" />
-                <line number="83" hits="0" branch="False" />
-                <line number="85" hits="0" branch="False" />
-                <line number="86" hits="0" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="81" hits="0" branch="False" />
-            <line number="82" hits="0" branch="False" />
-            <line number="83" hits="0" branch="False" />
-            <line number="85" hits="0" branch="False" />
-            <line number="86" hits="0" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController/&lt;DeleteEnderecoMotorista&gt;d__6" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="CadastroCaminhoneirosAPI.Controllers.EnderecoMotoristasController/&lt;DeleteEnderecoMotorista&gt;d__6" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\EnderecoMotoristasController.cs" line-rate="0.7777" branch-rate="0.5" complexity="2">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+            <method name="MoveNext" signature="()" line-rate="0.7777" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="91" hits="0" branch="False" />
-                <line number="92" hits="0" branch="False" />
-                <line number="93" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="198" type="jump" coverage="0%" />
+                    <condition number="198" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="94" hits="0" branch="False" />
                 <line number="95" hits="0" branch="False" />
-                <line number="98" hits="0" branch="False" />
-                <line number="99" hits="0" branch="False" />
-                <line number="101" hits="0" branch="False" />
-                <line number="102" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="91" hits="0" branch="False" />
-            <line number="92" hits="0" branch="False" />
-            <line number="93" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="198" type="jump" coverage="0%" />
+                <condition number="198" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="94" hits="0" branch="False" />
             <line number="95" hits="0" branch="False" />
-            <line number="98" hits="0" branch="False" />
-            <line number="99" hits="0" branch="False" />
-            <line number="101" hits="0" branch="False" />
-            <line number="102" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
           </lines>
         </class>
         <class name="CadastroCaminhoneirosAPI.Controllers.MotoristasController" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosAPI\Controllers\MotoristasController.cs" line-rate="0.5714" branch-rate="1" complexity="2">
@@ -694,7 +694,7 @@
         </class>
       </classes>
     </package>
-    <package name="CadastroCaminhoneirosMVC" line-rate="0.0151" branch-rate="0" complexity="115">
+    <package name="CadastroCaminhoneirosMVC" line-rate="0.0513" branch-rate="0" complexity="115">
       <classes>
         <class name="CadastroCaminhoneirosMVC.Program" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\Program.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
@@ -814,36 +814,36 @@
             <line number="20" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosMVC.Models.CaminhaoMotorista" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\Models\CaminhaoMotorista.cs" line-rate="0" branch-rate="1" complexity="7">
+        <class name="CadastroCaminhoneirosMVC.Models.CaminhaoMotorista" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\Models\CaminhaoMotorista.cs" line-rate="0.8571" branch-rate="1" complexity="7">
           <methods>
-            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="0" branch="False" />
+                <line number="12" hits="5" branch="False" />
               </lines>
             </method>
-            <method name="get_Marca" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Marca" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="0" branch="False" />
+                <line number="14" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Modelo" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Modelo" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="False" />
+                <line number="16" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Placa" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Placa" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
+                <line number="18" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Eixos" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Eixos" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="0" branch="False" />
+                <line number="20" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_MotoristaId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_MotoristaId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="0" branch="False" />
+                <line number="22" hits="3" branch="False" />
               </lines>
             </method>
             <method name="get_Motorista" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -853,30 +853,30 @@
             </method>
           </methods>
           <lines>
-            <line number="12" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
+            <line number="12" hits="5" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
             <line number="23" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosMVC.Models.Context" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\Models\Context.cs" line-rate="0.22219999999999998" branch-rate="1" complexity="5">
+        <class name="CadastroCaminhoneirosMVC.Models.Context" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\Models\Context.cs" line-rate="0" branch-rate="1" complexity="5">
           <methods>
             <method name="get_Motorista" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
                 <line number="11" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="get_EnderecoMotorista" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_EnderecoMotorista" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="4" branch="False" />
+                <line number="12" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="get_CaminhaoMotorista" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_CaminhaoMotorista" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="4" branch="False" />
+                <line number="13" hits="0" branch="False" />
               </lines>
             </method>
             <method name="OnConfiguring" signature="(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)" line-rate="0" branch-rate="1" complexity="1">
@@ -896,8 +896,8 @@
           </methods>
           <lines>
             <line number="11" hits="0" branch="False" />
-            <line number="12" hits="4" branch="False" />
-            <line number="13" hits="4" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
             <line number="16" hits="0" branch="False" />
             <line number="17" hits="0" branch="False" />
             <line number="18" hits="0" branch="False" />
@@ -906,46 +906,46 @@
             <line number="23" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="CadastroCaminhoneirosMVC.Models.EnderecoMotorista" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\Models\EnderecoMotorista.cs" line-rate="0" branch-rate="1" complexity="9">
+        <class name="CadastroCaminhoneirosMVC.Models.EnderecoMotorista" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\Models\EnderecoMotorista.cs" line-rate="0.8887999999999999" branch-rate="1" complexity="9">
           <methods>
-            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="0" branch="False" />
+                <line number="11" hits="5" branch="False" />
               </lines>
             </method>
-            <method name="get_Cep" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Cep" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
+                <line number="13" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Logradouro" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Logradouro" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="0" branch="False" />
+                <line number="15" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Numero" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Numero" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
+                <line number="18" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Bairro" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Bairro" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="0" branch="False" />
+                <line number="20" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Cidade" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Cidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="0" branch="False" />
+                <line number="22" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Estado" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Estado" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="0" branch="False" />
+                <line number="24" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_MotoristaId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_MotoristaId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="0" branch="False" />
+                <line number="26" hits="3" branch="False" />
               </lines>
             </method>
             <method name="get_Motorista" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -955,14 +955,14 @@
             </method>
           </methods>
           <lines>
-            <line number="11" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
+            <line number="11" hits="5" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
             <line number="27" hits="0" branch="False" />
           </lines>
         </class>
@@ -4022,7 +4022,7 @@
         </class>
       </classes>
     </package>
-    <package name="CadastroCaminhoneirosTest" line-rate="0.9704999999999999" branch-rate="1" complexity="6">
+    <package name="CadastroCaminhoneirosTest" line-rate="0.9887999999999999" branch-rate="1" complexity="14">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -4034,6 +4034,198 @@
           </methods>
           <lines>
             <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="CadastroCaminhoneirosTest.CaminhaoMotoristasControllerTest" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\CaminhaoMotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="30" hits="3" branch="False" />
+                <line number="32" hits="3" branch="False" />
+                <line number="33" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
+            <line number="33" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CadastroCaminhoneirosTest.CaminhaoMotoristasControllerTest/&lt;Put_CaminhaoMotorista&gt;d__4" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\CaminhaoMotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CadastroCaminhoneirosTest.CaminhaoMotoristasControllerTest/&lt;Post_CaminhaoMotorista&gt;d__5" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\CaminhaoMotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CadastroCaminhoneirosTest.CaminhaoMotoristasControllerTest/&lt;Delete_CaminhaoMotorista&gt;d__6" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\CaminhaoMotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CadastroCaminhoneirosTest.EnderecoMotoristasControllerTest" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\EnderecoMotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="30" hits="3" branch="False" />
+                <line number="32" hits="3" branch="False" />
+                <line number="33" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
+            <line number="33" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CadastroCaminhoneirosTest.EnderecoMotoristasControllerTest/&lt;Put_EnderecoMotorista&gt;d__4" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\EnderecoMotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CadastroCaminhoneirosTest.EnderecoMotoristasControllerTest/&lt;Post_EnderecoMotorista&gt;d__5" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\EnderecoMotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CadastroCaminhoneirosTest.EnderecoMotoristasControllerTest/&lt;Delete_EnderecoMotorista&gt;d__6" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\EnderecoMotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
           </lines>
         </class>
         <class name="CadastroCaminhoneirosTest.MotoristasControllerTest" filename="source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosTest\MotoristasControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">

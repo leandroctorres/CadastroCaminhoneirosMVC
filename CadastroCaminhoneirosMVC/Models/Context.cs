@@ -9,8 +9,8 @@ namespace CadastroCaminhoneirosMVC.Models
     public class Context : DbContext
     {
         public virtual DbSet<Motorista> Motorista { get; set; }
-        public DbSet<EnderecoMotorista> EnderecoMotorista { get; set; }
-        public DbSet<CaminhaoMotorista> CaminhaoMotorista { get; set; }
+        public virtual DbSet<EnderecoMotorista> EnderecoMotorista { get; set; }
+        public virtual DbSet<CaminhaoMotorista> CaminhaoMotorista { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

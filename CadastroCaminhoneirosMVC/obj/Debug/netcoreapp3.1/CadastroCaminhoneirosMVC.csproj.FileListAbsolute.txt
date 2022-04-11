@@ -37,7 +37,6 @@ C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\bi
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\obj\Debug\netcoreapp3.1\CadastroCaminhoneirosMVC.csproj.AssemblyReference.cache
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\obj\Debug\netcoreapp3.1\CadastroCaminhoneirosMVC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\obj\Debug\netcoreapp3.1\CadastroCaminhoneirosMVC.AssemblyInfoInputs.cache
 C:\Users\leand\source\repos\CadastroCaminhoneirosMVC\CadastroCaminhoneirosMVC\obj\Debug\netcoreapp3.1\CadastroCaminhoneirosMVC.AssemblyInfo.cs
